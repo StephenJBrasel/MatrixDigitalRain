@@ -1,6 +1,19 @@
+/* global 
+  background
+  createCanvas 
+  fill 
+  frameCount
+  height
+  random 
+  round
+  text
+  textSize 
+  width
+*/
 var symbolSize = 26;
 var streams = [];
 
+// eslint-disable-next-line no-unused-vars
 function setup() {
   createCanvas(
     window.innerWidth, 
@@ -18,6 +31,7 @@ function setup() {
   textSize(symbolSize);
 }
 
+// eslint-disable-next-line no-unused-vars
 function draw() {
   background(0, 150);
   streams.forEach(function(stream){
@@ -59,7 +73,7 @@ function Stream(){
   this.generateSymbols = function(x, y){
     var first = round(random(0, 4)) == 1;
     for (var i = 0; i <= this.totalSymbols; i++){
-      symbol = new Symbol(x, y, this.speed, first);
+      var symbol = new Symbol(x, y, this.speed, first);
       symbol.setToRandomSymbol();
       this.symbols.push(symbol);
       y -= symbolSize;
