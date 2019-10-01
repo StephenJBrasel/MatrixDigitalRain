@@ -1,0 +1,22 @@
+{
+  "name": "matrixdigitalrain",
+  "version": "1.0.0",
+  "description": "An implementation of Emily Xie's P5.js tutorial.",
+  "main": "p5.dom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenJBrasel/MatrixDigitalRain.git"
+  },
+  "author": "Stephen Brasel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenJBrasel/MatrixDigitalRain/issues"
+  },
+  "homepage": "https://github.com/StephenJBrasel/MatrixDigitalRain#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
